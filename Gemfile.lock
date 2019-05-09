@@ -13,11 +13,24 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.4)
+    artii (2.1.2)
     coderay (1.1.1)
+    colorize (0.8.1)
     concurrent-ruby (1.0.5)
+    equatable (0.5.0)
+    faker (1.9.3)
+      i18n (>= 0.7)
     i18n (0.8.1)
+    json (2.2.0)
     method_source (0.8.2)
+    mini_portile2 (2.4.0)
     minitest (5.10.1)
+    necromancer (0.4.0)
+    nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
+    pastel (0.7.2)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -37,17 +50,38 @@ GEM
     sqlite3 (1.3.13)
     thread_safe (0.3.6)
     tilt (2.0.7)
+    timers (4.3.0)
+    tty-color (0.4.3)
+    tty-cursor (0.6.1)
+    tty-prompt (0.18.1)
+      necromancer (~> 0.4.0)
+      pastel (~> 0.7.0)
+      timers (~> 4.0)
+      tty-cursor (~> 0.6.0)
+      tty-reader (~> 0.5.0)
+    tty-reader (0.5.0)
+      tty-cursor (~> 0.6.0)
+      tty-screen (~> 0.6.4)
+      wisper (~> 2.0.0)
+    tty-screen (0.6.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    wisper (2.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  artii
+  colorize
+  faker
+  json
+  nokogiri
   pry
   require_all
   sinatra-activerecord
   sqlite3
+  tty-prompt
 
 BUNDLED WITH
-   1.14.6
+   1.17.3
