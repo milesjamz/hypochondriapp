@@ -1,5 +1,3 @@
-																README
-
 HYPOCHONDRI-APP v 1.0 - diagnosing, curing, and creating all the world's illnesses since 05/10/2019
 the mod 1 final project of ...
 	- Chloe Liu
@@ -7,7 +5,7 @@ the mod 1 final project of ...
 	- Miles Marillo
 
 
-									------======	INSTALLATION AND TROUBLESHOOTING	======------
+------======	INSTALLATION AND TROUBLESHOOTING	======------
 
 HYPOCHONDRI-APP was written in SublimeText and Atom, and tested with Ruby 2.6.1p33 ...
 
@@ -15,7 +13,7 @@ If you're having problems running it, please make sure you have installed all th
 
 We populated our extensive database with real data from a government database of clinical studies; we then turned them into SQLite files.
 
-											------======	HOW IT WORKS	======------
+------======	HOW IT WORKS	======------
 
 
 HYPOCHONDI-APP allows you to create a user profile, with their own password and residence in one of 5 cities. Upon waking up in the morning, the user is given a real weather report, scraped from accuweather.com with Nokogiri, and then assigned an illness from our database at random - these range from the comical to quite serious. 
