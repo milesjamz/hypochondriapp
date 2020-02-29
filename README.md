@@ -25,4 +25,4 @@ The user can also use our Data Analytics function to show hospitals that treat t
 Once the user has seen a doctor, they are healed! They can no longer make doctor's appointments or look up their illness in data analytics. They can, however, go to bed, which will find them waking up the next morning a little under the weather...
 
 Thank you!
-_team MiChloWei
+_team MiChloWei_
